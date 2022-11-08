@@ -1,5 +1,5 @@
 {
-  "name": "coffeecode/paginator",
+  "name": "melquespaiva/paginator",
   "description": "Paginator is simple and is ready to generate results navigation in your application",
   "keywords": [
     "CoffeeCode",
@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CoffeeCode\\Paginator\\": "src"
+      "MelquesPaiva\\Paginator\\": "src"
     }
   }
 }

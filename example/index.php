@@ -4,8 +4,8 @@
 require __DIR__ . "/../vendor/autoload.php";
 
 $page = filter_input(INPUT_GET, "page", FILTER_VALIDATE_INT);
-$pager = new \CoffeeCode\Paginator\Paginator();
-$pager->pager(100, 10, $page);
+$pager = new \MelquesPaiva\Paginator\Paginator("/teste/");
+$pager->pager(100, 10, $page, 3, null, ["code" => 1, 'testando' => 5]);
 
 ?>
 <link rel="stylesheet" href="style.css"/>

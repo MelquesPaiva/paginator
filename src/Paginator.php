@@ -1,12 +1,12 @@
 <?php
 
-namespace CoffeeCode\Paginator;
+namespace MelquesPaiva\Paginator;
 
 /**
- * Class CoffeeCode Paginator
+ * Class MelquesPaiva Paginator
  *
  * @author Robson V. Leite <https://github.com/robsonvleite>
- * @package CoffeeCode\Paginator
+ * @package MelquesPaiva\Paginator
  */
 class Paginator
 {
