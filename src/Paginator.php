@@ -230,6 +230,10 @@ class Paginator
             }
 
             $this->params = '&';
+            if ($this->link) {
+                $this->params = '?';
+            }
+
             $this->params .= http_build_query($params);
         }
 
